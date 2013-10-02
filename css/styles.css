@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 800px;
+	font-size: 11px;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+#header {
+	background-color:#3b5998;
+	margin-left: 12px;
+	margin-right: 12px;
+	border-radius: 0px 0px 2px 2px;
+	border : 1px solid #30599a;
+}
+
+#logo {
+	background-image:url(../img/facebook.png);
+	background-repeat:no-repeat;
+	background-position:-104px -235px;
+	background-color:#3b5998;
+	height:31px;
+	width:103px;
+}
+
+#calendar {
+  width:705px;
+  height : 720px;
+  position : relative;
+  left:20px;
+  top:70px;
+}
+
+.timeline {
+	width : 80px;
+	height : 720px;
+	position: absolute;
+	top:-10px;
+	text-align : right;
+	color:#686868;
+	font-size:13px;
+}
+
+.events {
+  width : 620px;
+  height : 720px;
+  position: absolute;
+  left: 85px;
+  background-color: #ececec;
+  border-left: 1px solid #d5d5d5;
+}
+
+.event {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  padding: 8px;
+  overflow:hidden;
+  background-color: #ffffff;
+  position: absolute;
+  border: 1px solid #d5d5d5;
+  border-left: 4px solid #4c6fa9;
+}
+
+.title {
+  color: #4c6fa9;
+  font-size: 13px;
+	
+}
+
+.subTitle {
+	color: gray;
+	font-size: 11px;
+}

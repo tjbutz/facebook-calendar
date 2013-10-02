@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Facebook</title>
+
+  <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
+
+  <script type="text/javascript" src="src/fb.min.js"></script>
+  <script type="text/javascript">
+    function init() {
+      var calendar = new FB.ui.calendar.Calendar("calendar");
+      calendar.layOutDay([
+        {id : 1, start : 60, end : 120}  
+        ,{id : 2, start : 100, end : 240} 
+        ,{id : 3, start : 670, end : 720} 
+        ,{id : 4, start : 0, end : 160}  
+        ,{id : 5, start : 122, end : 150} 
+        ,{id : 6, start : 0, end : 150}  
+        ,{id : 7, start : 140, end : 240} 
+        ,{id : 8, start : 121, end : 240} 
+        ,{id : 9, start : 123, end : 240} 
+        ,{id : 10, start : 124, end : 240} 
+        ,{id : 11, start : 125, end : 240} 
+        ,{id : 12, start : 141, end : 400} 
+        ,{id : 13, start : 420, end : 520}
+        ,{id : 14, start : 410, end : 530}
+      ]);
+    };
+    
+  </script>
+</head>
+<body onload="init()">
+  <div id="header">
+    <div id="logo"></div>
+  </div>
+  <div id="calendar"></div>
+</body>
+</html>
